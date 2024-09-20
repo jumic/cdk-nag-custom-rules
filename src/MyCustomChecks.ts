@@ -20,7 +20,7 @@ export class MyCustomChecks extends NagPack {
       });
 
       this.applyRule({
-        info: 'SSE encryption not set for this bucket',
+        info: 'SSE encryption not set for this bucket.',
         explanation: 'SSE encryption must be enabled to encrypt files in this bucket.',
         level: NagMessageLevel.ERROR,
         rule: S3DefaultEncryptionSSE,
